@@ -15,6 +15,7 @@ const app = express()
 
 //we are creating this route for goals; so we are saying, "hey, lets use express framework and create this route with these two paramaters"- the first paramater is the route called 'api/goals' and the second is that when we make a get,post,put,or delete request to /api/goals, use the javascript file that we created called 'goalRoutes', which lives in the modularized routes folder.
 app.use('/api/goals', require('./routes/goalRoutes'))
+app.use('/api/players', require('./routes/playerRoutes'))
 
 
 //and then this bad boy  down here says, "hey, let's use the express framework to listen on the specified port".  so the first paramater is the variable 'port' that we defined which called on the .env to define our secret port to listen on, and the second paramater is a fuction that console logs confirmation that the server started on that port
