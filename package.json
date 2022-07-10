@@ -1,5 +1,5 @@
 {
-  "name": "mern-app",
+  "name": "push-up-tracker",
   "version": "1.0.0",
   "description": "create an app for practice using traversy tutorial",
   "main": "server.js",
