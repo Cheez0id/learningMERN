@@ -7,6 +7,8 @@ Now would be the time to decide.  I think we can do this! So, the example that T
 [18:19](https://youtu.be/-0exw-9YJBo?t=1099) - If we decide to be ambitious and create our push-up tracker, we're basically choosing to start that now.
 
 [19:47](https://youtu.be/-0exw-9YJBo?t=1187) - **we did it bois!  we made and tested routes**
+ so our routes work, but they are ONLY routes at this point- and those routes only return 'messages' as defined in the object attached to the request.
+
 
 ## Technologies Used
 - Node
