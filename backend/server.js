@@ -17,6 +17,11 @@ const app = express()
 app.use('/api/goals', require('./routes/goalRoutes'))
 app.use('/api/players', require('./routes/playerRoutes'))
 
+//middleware from express that sees json type objects
+app.use(express.json())
+//this is for urlencoded; it is to parse the incoming request with urlencoded paylods- "URL Encoding converts reserved, unsafe, and non-ASCII characters in URLs to a format that is universally accepted and understood by all web browsers and servers". 
+app.use(express.urlencoded({false}))
+
 
 //and then this bad boy  down here says, "hey, let's use the express framework to listen on the specified port".  so the first paramater is the variable 'port' that we defined which called on the .env to define our secret port to listen on, and the second paramater is a fuction that console logs confirmation that the server started on that port
 app.listen(port, () => console.log(`server started on port ${port}`))

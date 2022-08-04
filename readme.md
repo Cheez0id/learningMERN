@@ -11,6 +11,8 @@ Now would be the time to decide.  I think we can do this! So, the example that T
 
  [25:25](https://youtu.be/-0exw-9YJBo?t=1525) - note that HERE Traversy decides to put the routes in getRoutes into consolidated lines of code (so, because get and post both use '/' and '/:id', respectively, you COULD do something like: `router.route('/').get(getGoals).post(setGoal)` - BUT I'm, choosing not to do that just yet)
 
+[28:20](https://youtu.be/-0exw-9YJBo?t=1700) - adding app.use express.json and express.urlencoded so that the types of data being transmitted are understood
+
 
 ## Technologies Used
 - Node
